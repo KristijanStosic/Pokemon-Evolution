@@ -48,6 +48,8 @@ function App() {
               image={pokemon.sprites.other.dream_world.front_default}
               type={pokemon.types[0].type.name}
               base_experience={pokemon.base_experience}
+              weight={pokemon.weight}
+              height={pokemon.height}
               key={index}
             />
           ))}
